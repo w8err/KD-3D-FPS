@@ -513,7 +513,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 36
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &650903414
 MonoBehaviour:
@@ -528,9 +528,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 3
+  runSpeed: 7
+  applySpeed: 0
+  crouchSpeed: 1.5
+  jumpForce: 5
   mouseYLookSensitivity: 3
   mouseXLookSensitivity: 0.1
   cameraRotationLimit: 50
+  crouchPosY: 0
   theCamera: {fileID: 330585545}
 --- !u!1 &832575517
 GameObject:
